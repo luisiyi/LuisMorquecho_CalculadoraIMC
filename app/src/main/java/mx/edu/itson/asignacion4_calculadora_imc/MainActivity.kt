@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
 
     var ET_Peso =0
     var ET_Altura =0
-
+    var imc=0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         var ET_Peso: EditText = findViewById(R.id.ET_Peso)
     }
 
-
+    fun evaluarIMC(){
+    }
 
 }
